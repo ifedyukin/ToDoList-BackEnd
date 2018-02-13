@@ -1,0 +1,21 @@
+{
+  "name": "todolist-backend",
+  "version": "1.0.0",
+  "description": "Simple server for ToDoList applications",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint --ext .js ./ --ignore-path .gitignore"
+  },
+  "author": "Igor Fedyukin <me@ifedyukin.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifedyukin/ToDoList-BackEnd/issues"
+  },
+  "homepage": "https://github.com/ifedyukin/ToDoList-BackEnd",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.4"
+  }
+}
